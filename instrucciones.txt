@@ -1,5 +1,6 @@
 Instalacion y configuracion Github.
 
+1. Descargar e instalar Github
 2. Crear llaves SSH desde terminal con los siguientes comandos:
 git config --global user.name "Fabian"
 git config --global user.emaile "fabiing10@gmail.com"

@@ -1,0 +1,19 @@
+Instalacion y configuracion Github.
+
+1. Descargar e instalar Github
+2. Crear llaves SSH desde terminal con los siguientes comandos:
+git config --global user.name "Fabian"
+git config --global user.emaile "fabiing10@gmail.com"
+ssh-keygen
+/Users/FabianDeveloper/.ssh/nombrearchivo
+3. Ver llave ssh para configurar en GitHub 
+cat ~/.ssh/clavesgit.pub
+4. Iniciar Git desde el terminal:
+git init
+5. Comandos:
+touch (Nombre Archivo) = Crear archivo 
+git add 
+git status
+git commit -m “Descripcion”
+git remote add origin git@github.com:fabiing10/clase-de-git.git
+git pull origin master = Traer todo el contenido del repositorio de Git
